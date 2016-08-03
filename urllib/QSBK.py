@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
 #没有使用框架，通过python自带的urllib库以及正则表达式抓取糗事百科的段子
+# 参考网址：http://cuiqingcai.com/990.html
 
 import urllib
 import urllib2
