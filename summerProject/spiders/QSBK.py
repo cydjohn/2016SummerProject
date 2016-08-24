@@ -6,10 +6,7 @@ import scrapy
 
 class QSBKSpider(scrapy.Spider):
     name = "QSBK"
-    allowed_domains = ["www.qiushibaike.com/"]
-    start_urls = [
-                            "http://www.qiushibaike.com/hot/"
-                                        ]
+    start_urls = ["http://www.qiushibaike.com/hot/"]
     def parse(self, response):
         print "hehehheheheh"
         print response.body
